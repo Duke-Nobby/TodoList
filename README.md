@@ -1,2 +1,2 @@
 # TodoList
-this ISfirst Step in Vue
+this is my first step in Vue
