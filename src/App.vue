@@ -7,11 +7,13 @@
       {{todo.label}}
     </li>
   </ul>
+    <multi-check-box></multi-check-box>
   </div>
 </template>
 
 <script>
 import Store from "./store.js"
+import MultiCheckBox from './components/MultiCheckBox.vue'
 //在项目中会走动生成一个new Vue()
 export default {
   data:function() {
@@ -42,6 +44,9 @@ export default {
       });
       this.newTodo='';
     }
+  },
+  components:{
+    MultiCheckBox
   }
 }
 </script>
